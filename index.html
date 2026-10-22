@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nazmul Alahe · SaaS Storyboard Designer</title>
+  <meta name="description" content="Nazmul Alahe — SaaS Storyboard Designer & Visualizer in Dhaka, Bangladesh. Turning complex SaaS products into clear visual stories.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&family=Instrument+Serif:ital@1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body id="top">
+
+  <!-- Nav -->
+  <header class="nav-wrap">
+    <nav class="nav container">
+      <a href="#top" class="brand" aria-label="Alahe.design, back to top"><span class="wordmark">Alahe<span class="dim">.design</span></span></a>
+      <div class="nav-links">
+        <a href="#saas">Work</a>
+        <a href="#branding">Branding</a>
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <a href="#contact" class="nav-cta">Let's Talk</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero: light, left-aligned title; a curved wheel of projects you can spin by dragging -->
+    <div class="hero-band">
+      <section class="hero container hrow">
+        <h1 class="hero-title reveal">
+          <span><em class="serif">Designing</em> SaaS Storyboards</span>
+          <span>&amp; Brands <span class="soft">that click.</span></span>
+        </h1>
+      </section>
+
+      <div class="container hrow hero-mid">
+        <p class="hero-lead reveal">I'm Alahe. I design clear, bold storyboards and brand identities that turn complex products into stories people get in seconds.</p>
+        <div class="actions reveal">
+          <a href="#saas" class="btn btn-black">Explore my work</a>
+          <a href="#contact" class="btn btn-outline">Let's work together</a>
+        </div>
+      </div>
+
+      <div class="curve" id="curve" aria-label="Recent projects. Drag sideways to spin."><div class="curve-stage" id="curve-stage"></div></div>
+
+      <div class="container hrow hero-feats">
+        <div><strong>SaaS Storyboard</strong><p>Scripts turned into clear, frame-by-frame scenes.</p></div>
+        <div><strong>Visual Design</strong><p>Product visuals and scenes that explain features.</p></div>
+        <div><strong>Brand Identity</strong><p>Logos and systems that hold a brand together.</p></div>
+      </div>
+    </div>
+
+    <!-- Who I am -->
+    <section class="section container intro" id="intro">
+      <span class="label">Who I am</span>
+      <div class="intro-body reveal">
+        <p>I help transform complex software features and workflows into clear, engaging visual experiences through storyboards, product visualization and SaaS explainer videos.</p>
+      </div>
+      <span class="label num">01</span>
+    </section>
+
+    <!-- Products I've designed for: a slim strip drifting left to right -->
+    <div class="drift" aria-label="Products I've designed stories for"><div class="drift-track" id="brands"></div></div>
+
+    <!-- Scroll-zoom grid into the work (after gamanac): the grid scales up as you scroll -->
+    <section class="zoomer" id="zoomer" aria-label="Selected work">
+      <div class="zoomer-sticky">
+        <div class="zoomer-grid" id="zoomer-grid"></div>
+        <p class="zoomer-label"><span>Selected work</span><b>14 projects · scroll</b></p>
+      </div>
+    </section>
+
+    <!-- Work, split by discipline -->
+    <!-- Each discipline is a stack of project cards: each one sticks while the next slides over it -->
+    <section class="section container work" id="saas">
+      <div class="head reveal">
+        <h2>SaaS &amp; Promo<sup class="count"></sup></h2>
+        <p>Storyboards and design for product explainers, launch films and promo videos. Click any project to watch it.</p>
+      </div>
+      <div class="stack" data-cat="saas"></div>
+    </section>
+
+    <section class="section container work" id="branding">
+      <div class="head reveal">
+        <h2>Branding<sup class="count"></sup></h2>
+        <p>Logos, colour, type and the visual systems that hold a brand together.</p>
+      </div>
+      <div class="stack" data-cat="branding"></div>
+    </section>
+
+    <section class="section container work" id="illustration">
+      <div class="head reveal">
+        <h2>Illustration<sup class="count"></sup></h2>
+        <p>Characters, scenes and visual stories, mostly drawn for animated explainers.</p>
+      </div>
+      <div class="stack" data-cat="illustration"></div>
+    </section>
+
+    <!-- Process -->
+    <section class="section container" id="process">
+      <div class="head reveal">
+        <h2>My creative workflow</h2>
+        <p>From the first brief to clear visual sequences ready for explainer video production.</p>
+      </div>
+      <div class="flow-meta label"><span>Process: <b>5 steps</b></span><span>Output: <b>Production-ready visual sequences</b></span></div>
+      <ol class="flow" id="flow"></ol>
+    </section>
+
+    <!-- About -->
+    <section class="section container intro" id="about">
+      <span class="label">More about me</span>
+      <div class="intro-body reveal">
+        <p>I'm Nazmul Alahe, a SaaS Storyboard Designer &amp; Visualizer in Dhaka with 4 years of professional experience. My approach combines creative thinking, product-focused design and AI-assisted workflows.</p>
+      </div>
+      <span class="label num">02</span>
+    </section>
+
+    <section class="container about reveal">
+      <div class="portrait">
+        <img src="media/covers/avatar.jpg" alt="Portrait of Nazmul Alahe">
+        <span class="label portrait-tag">Dhaka · <span class="clock">--:--</span></span>
+      </div>
+      <div class="about-info">
+        <div class="stats">
+          <div><strong data-count="4">4</strong><sup>+</sup><span>Years of experience</span></div>
+          <div><strong data-count="200">200</strong><sup>+</sup><span>Custom SaaS videos</span></div>
+          <div><strong data-count="300">300</strong><sup>+</sup><span>SaaS video templates</span></div>
+          <div><strong data-count="30">30</strong><sup>+</sup><span>Illustration explainer videos</span></div>
+          <div class="stat-award"><strong data-count="2">2</strong><sup>×</sup><span>Employee of the Year</span></div>
+        </div>
+        <dl class="tools">
+          <div><dt class="label">Design &amp; creative</dt><dd>Adobe Illustrator · Figma · Adobe Creative Cloud</dd></div>
+          <div><dt class="label">AI-assisted workflow</dt><dd>ChatGPT · Claude · Figma AI · Magnific</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- Experience: two big role cards -->
+    <section class="container experience" id="experience" aria-labelledby="exp-title">
+      <div class="exp-head reveal">
+        <span class="label">Experience</span>
+        <h3 id="exp-title">Four years at VIDIOSA</h3>
+      </div>
+      <div class="roles">
+        <article class="role role-lead reveal">
+          <div class="role-top"><span class="role-years">2025 — Now</span><span class="role-tag"><i class="dot"></i>Current role</span></div>
+          <h4>Lead Designer</h4>
+          <p class="role-co">VIDIOSA · SaaS video production &amp; visual design · Dhaka</p>
+          <ul class="role-points">
+            <li>Lead the design team and review storyboards before they go to animation</li>
+            <li>Share what I've learned and help teammates organize and improve their workflow</li>
+            <li>200+ custom SaaS videos and 300+ SaaS video templates designed</li>
+          </ul>
+          <div class="role-work"><span class="label">Key projects</span><div class="role-chips" data-years="2025,2026"></div></div>
+        </article>
+        <article class="role role-illu reveal">
+          <div class="role-top"><span class="role-years">2022 — 2024</span><span class="role-tag">Where it started</span></div>
+          <h4>Illustrator</h4>
+          <p class="role-co">VIDIOSA · Explainer video production · Dhaka</p>
+          <ul class="role-points">
+            <li>Illustration for 30+ animated explainer videos: characters and vector scenes</li>
+            <li>Social posts and campaign visuals for VIDIOSA</li>
+            <li>Design work on the 2024 VIDIOSA rebrand and promo film</li>
+          </ul>
+          <div class="role-work"><span class="label">Key projects</span><div class="role-chips" data-years="2023,2024"></div></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Services as cards -->
+    <section class="night" id="services">
+      <div class="night-bg" aria-hidden="true"><svg viewBox="0 0 1440 700" preserveAspectRatio="none">
+        <defs>
+          <linearGradient id="satin" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#ffffff" stop-opacity="0"/><stop offset=".45" stop-color="#e6e9ef" stop-opacity=".55"/>
+            <stop offset=".6" stop-color="#ffffff" stop-opacity=".9"/><stop offset="1" stop-color="#9aa1ad" stop-opacity="0"/>
+          </linearGradient>
+        </defs>
+        <path class="satin" d="M0 560 C 260 470, 470 420, 720 470 S 1180 640, 1440 520 L 1440 700 L 0 700 Z"/>
+      </svg></div>
+      <div class="container night-in">
+        <div class="svc-intro reveal">
+          <span class="label">Services</span>
+          <h2>What I do</h2>
+          <p>Mainly, I design <strong>storyboards for SaaS explainer videos</strong>. Alongside that I work on UI design, posters and carousels, branding and illustration.</p>
+        </div>
+        <ol class="svc-list reveal" id="service-list"></ol>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section container faq" id="faq">
+      <div class="faq-side reveal">
+        <span class="label">FAQ</span>
+        <h2>Have some questions?<br>Not finding answers?</h2>
+        <p>Email me any time. I'm happy to answer questions before we work together.</p>
+        <a href="#contact" class="btn btn-black">Contact me</a>
+      </div>
+      <div class="accordion faq-list" id="faq-list"></div>
+    </section>
+
+    <!-- Let's work together: CTA and inquiry form in one prism-lit panel -->
+    <section class="section container" id="contact">
+      <div class="connect reveal">
+        <div class="cta-light" aria-hidden="true"><svg viewBox="0 0 1200 600" preserveAspectRatio="none">
+          <defs>
+            <linearGradient id="prism" x1="0" y1="0" x2="1" y2="0">
+              <stop offset="0" stop-color="#3b5bff"/><stop offset=".25" stop-color="#8fd3ff"/><stop offset=".45" stop-color="#f4f4f6"/>
+              <stop offset=".62" stop-color="#ffb37a"/><stop offset=".8" stop-color="#ff5a3d"/><stop offset="1" stop-color="#2b3bff"/>
+            </linearGradient>
+          </defs>
+          <path class="beam beam-1" d="M-60 520 C 180 380, 320 120, 560 150 S 980 420, 1260 330" />
+          <path class="beam beam-2" d="M-60 120 C 240 60, 420 300, 700 330 S 1080 120, 1260 40" />
+        </svg></div>
+        <div class="connect-side">
+          <span class="avail"><i class="dot"></i>Open to freelance projects</span>
+          <h2>Have a SaaS product <span class="chrome-light">to explain?</span></h2>
+          <p>Let's turn your product features and complex workflows into a clear, engaging visual story. Storyboard development, product visualization or visual support for a SaaS explainer video: I'd love to hear about your project.</p>
+          <ul class="contact-links">
+            <li><span class="label">Email</span><button type="button" class="copy" id="copy"><span>nazmulelahe@gmail.com</span><b>Copy</b></button></li>
+            <li><span class="label">Behance</span><a href="https://www.behance.net/nazmulalahe" target="_blank" rel="noopener">behance.net/nazmulalahe <span aria-hidden="true">↗</span></a></li>
+            <li><span class="label">Instagram</span><a href="https://www.instagram.com/nazmul.alahe" target="_blank" rel="noopener">instagram.com/nazmul.alahe <span aria-hidden="true">↗</span></a></li>
+          </ul>
+        </div>
+      <form class="form" id="inquiry" novalidate>
+        <div class="form-head"><strong>Start a project</strong><span>I usually reply within a day.</span></div>
+        <div class="field-row">
+          <div class="field"><label for="f-name">Name</label><input id="f-name" name="name" autocomplete="name" required></div>
+          <div class="field"><label for="f-email">Email</label><input id="f-email" name="email" type="email" autocomplete="email" required></div>
+        </div>
+        <div class="field"><label for="f-type">Project type</label>
+          <select id="f-type" name="type">
+            <option>SaaS storyboard</option><option>SaaS explainer video</option><option>Product visualization</option><option>Brand identity</option><option>Posters &amp; carousels</option><option>Illustration</option><option>Something else</option>
+          </select>
+        </div>
+        <div class="field"><label for="f-details">Project details</label><textarea id="f-details" name="details" rows="3" required></textarea></div>
+        <button type="submit" class="btn btn-white">Send project inquiry <span aria-hidden="true">↗</span></button>
+        <p class="form-note" id="form-note" role="status"></p>
+      </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <div class="giant" aria-hidden="true"><canvas id="dots"></canvas></div>
+    <div class="footer-cols">
+      <div><p>Dhaka, Bangladesh</p><p>GMT+6 · <span class="clock">--:--</span></p></div>
+      <div><a href="#saas">SaaS &amp; Promo</a><a href="#branding">Branding</a><a href="#illustration">Illustration</a></div>
+      <div><a href="#services">Services</a><a href="#about">About</a><a href="#contact">Contact</a></div>
+      <div><a href="mailto:nazmulelahe@gmail.com">nazmulelahe@gmail.com</a></div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> Nazmul Alahe</span>
+      <div class="social">
+        <a href="https://www.behance.net/nazmulalahe" target="_blank" rel="noopener" aria-label="Behance">Be</a>
+        <a href="https://www.instagram.com/nazmul.alahe" target="_blank" rel="noopener" aria-label="Instagram">Ig</a>
+        <a href="https://dribbble.com/nazmulalahe" target="_blank" rel="noopener" aria-label="Dribbble">Dr</a>
+        <a href="https://twitter.com/NazmulAlahe" target="_blank" rel="noopener" aria-label="X / Twitter">X</a>
+        <a href="https://vimeo.com/nazmulalahe" target="_blank" rel="noopener" aria-label="Vimeo">Vi</a>
+        <a href="https://pinterest.com/nazmulalahe" target="_blank" rel="noopener" aria-label="Pinterest">Pi</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Case study overlay -->
+  <div class="case-view" id="case" role="dialog" aria-modal="true" aria-labelledby="case-title" hidden>
+    <div class="case-bar">
+      <div class="container case-bar-in">
+        <span class="label" id="case-cat"></span>
+        <div class="case-nav">
+          <button type="button" id="case-prev" aria-label="Previous project">← Prev</button>
+          <button type="button" id="case-next" aria-label="Next project">Next →</button>
+          <button type="button" id="case-close" class="btn btn-black">Close ✕</button>
+        </div>
+      </div>
+    </div>
+    <div class="case-scroll" id="case-scroll"></div>
+  </div>
+
+  <canvas id="trail" aria-hidden="true"></canvas>
+  <script src="media.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
